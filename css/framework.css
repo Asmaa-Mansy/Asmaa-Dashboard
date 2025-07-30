@@ -1,0 +1,301 @@
+/* start box */
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.d-inline{
+    display: inline;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.align-end{
+    align-items: end;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-15{
+    gap: 15px;
+}
+.gap-20{
+    gap: 20px;
+}
+.flex-1{
+    flex: 1;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+/* End box */
+/* start padding + margin */
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pr-15{
+    padding-right: 15px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.compontent-of-p{
+    padding: 5px 10px;
+}
+/* End padding + margin */
+/* start color */
+.b-white{
+    background-color: white;
+}
+.b-eee{
+    background-color: #eee;
+}
+.b-blue{
+    background-color: var(--blue-color);
+}
+.b-red{
+    background-color: var(--red-color);
+}
+.b-green{
+    background-color: var(--green-color);
+}
+.b-orange{
+    background-color: var(--orange-color);
+}
+.c-gray{
+    color: var(--grey-color);
+}
+.c-eee{
+    color: #eee;
+}
+.c-black{
+    color: black;
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-orange{
+    color: var(--orange-color);
+}
+.c-blue{
+    color: var(--blue-color);
+}
+.c-red{
+    color: var(--red-color);
+}
+.c-white{
+    color: white;
+}
+.c-twitter{
+    color:#1da1f2;
+}
+.b-twitter{
+    background-color:#1da1f2 ;
+}
+.c-face{
+    color:#1877f2;
+}
+.b-face{
+    background-color: #1877f2;
+}
+.c-youtube{
+    color:#ff0000;
+}
+.b-youtube{
+    background-color: #ff0000;
+}
+.c-linked{
+    color: #0077b5;
+}
+.b-linked{
+    background-color: #0077b5;
+}
+/* End color */
+/* start position  */
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+/* End position  */
+/* start fonts */
+.t-center{
+    text-align: center;
+}
+.f-12{
+    font-size: 12px;
+}
+.f-13{
+    font-size: 13px;
+}
+.f-14{
+    font-size: 14px;
+}
+.f-15{
+    font-size: 15px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-25{
+    font-size: 25px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.fw-normal{
+    font-weight: normal;
+}
+.lh-1-6{
+    line-height: 1.6;
+}
+/* End fonts */
+/* start shadow */
+.b-shadow{
+    box-shadow: 2px 0px 4px 0px rgb(0 0 0 / 16%);
+}
+/* End shadow */
+/* start width && height */
+.w-fit{
+    width:fit-content;
+}
+.w-full{
+    width: 100%;
+}
+.resize-n{
+    resize: none;
+    height: 180px;
+}
+.w-45{
+    width: 45px;
+}
+.w-60{
+    width: 60px;
+}
+.w-70{
+    width: 70px;
+}
+.w-100{
+    width: 100px;
+}
+.w-150{
+    width: 150px;
+}
+/* End width && height */
+/*  start media in mobile */
+@media (max-width:767px) {
+    .hide-mobile{
+        display: none;
+    }
+    .txt-c-mobile{
+        text-align: center;
+    }
+    
+}
+/*  End media in mobile */
+/* start componant  */
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button{
+    background-color: var(--blue-color);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    display: block;
+    width: fit-content;
+    border-radius: 6px;
+    margin: 10px 10px 10px auto;
+    border: none;
+    cursor:pointer;
+    transition: var(--main-transition);
+}
+/* End componant  */
+/* start border */
+.border-r-10{
+    border-radius: 10px;
+}
+.border-r-6{
+    border-radius: 6px;
+}
+.border-r-circle{
+    border-radius: 50%;
+}
+.border-n{
+    border: none;
+}
+.border-eee{
+    border:1px solid #eee;
+}
+.border-ccc{
+    border: solid 1px #ccc;
+}
+.borderb-eee{
+    border-bottom:1px solid #eee
+}
+
+/*  End border */
